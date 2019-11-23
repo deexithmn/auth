@@ -1,0 +1,19 @@
+curl -X POST \
+  http://localhost:3000/api/user/register \
+  -H 'Accept: */*' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Length: 42' \
+  -H 'Content-Type: application/json' \
+  -H 'Host: localhost:3000' \
+  -H 'Postman-Token: baa55822-8585-476d-a2d4-d4c9ff0eaf3f,d0272039-fbd4-49ea-91ce-c0a1250a155a' \
+  -H 'User-Agent: PostmanRuntime/7.19.0' \
+  -H 'cache-control: no-cache' \
+  -d '{
+	"username":"test",
+	"password":"test",
+	"repeat_password":"test",
+	"birth_year":1992,
+	"email":"test@gmail.com"
+}'
