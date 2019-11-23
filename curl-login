@@ -1,0 +1,16 @@
+curl -X POST \
+  http://localhost:3000/api/user/login \
+  -H 'Accept: */*' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Length: 42' \
+  -H 'Content-Type: application/json' \
+  -H 'Host: localhost:3000' \
+  -H 'Postman-Token: baa55822-8585-476d-a2d4-d4c9ff0eaf3f,3ce1857a-a70f-423d-8b58-cbec611e98f6' \
+  -H 'User-Agent: PostmanRuntime/7.19.0' \
+  -H 'cache-control: no-cache' \
+  -d '{
+	"username":"test",
+	"password":"test"
+}'

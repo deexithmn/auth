@@ -1,0 +1,11 @@
+curl -X GET \
+  http://localhost:3000/api/user/details \
+  -H 'Accept: */*' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Authorization: <--- copy the code you get in the header when to make a login call -->
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Host: localhost:3000' \
+  -H 'Postman-Token: 0eb4ca8f-a711-42e0-8c94-e8321977ac37,0c41ac35-9b5b-47b9-8404-2ad3aa6e04e9' \
+  -H 'User-Agent: PostmanRuntime/7.19.0' \
+  -H 'cache-control: no-cache'
