@@ -1,6 +1,6 @@
-#Auth Application:
+# Auth Application:
 
-###Run Instructions:
+### Run Instructions:
     1. clone the repo by running the below command in you terminal
         `git clone https://github.com/deexithmn/auth.git`
     2. Install all the npm packages by running the below command.
@@ -12,7 +12,7 @@
         `npm start`
     5. Your application is running in port 3000, you can update the port in app.js file.
 
-###Application:
+### Application:
     There are 3 routes. (Since the app running in you local, I am using the same for hitting the application)
     1. `http://localhost:3000/api/user/register`
         For a new user to login. Sample payload looks like below,
