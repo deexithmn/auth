@@ -1,4 +1,4 @@
-Auth Application:
+#Auth Application:
 
 ###Run Instructions:
     1. clone the repo by running the below command in you terminal
